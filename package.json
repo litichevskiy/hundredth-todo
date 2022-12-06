@@ -1,0 +1,22 @@
+{
+  "name": "hundredth-todo",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "webpack -p",
+    "dev": "webpack --watch & node server.js"
+  },
+  "dependencies": {
+    "express": "*",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12"
+  },
+  "devDependencies": {
+    "clean-webpack-plugin": "0.1.19",
+    "ts-loader": "^8.0.4",
+    "typescript": "^4.0.3"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 5 versions"
+  ]
+}
